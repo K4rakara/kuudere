@@ -1,6 +1,6 @@
 {
   "name": "kuudere",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Coming soon-- A byte-sized JavaScript framework",
   "main": "bin/npm/index.js",
   "repository": "https://github.com/K4rakara/kuudere",
