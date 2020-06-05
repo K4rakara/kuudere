@@ -1,6 +1,6 @@
 <p align="center"><img src="./readme/kuudere-logo.svg" width="128"/></p>
 
-# Kuudere · ![license](https://img.shields.io/static/v1?label=license&message=MIT&color=blueviolet) ![npm](https://img.shields.io/npm/v/kuudere?label=npm&message=&color=blueviolet) ![bundle size](https://img.shields.io/static/v1?label=bundle%20size&message=3.4kb&color=blueviolet)
+# Kuudere · <a href="https://github.com/K4rakara/kuudere/blob/master/LICENSE.md">![license](https://img.shields.io/static/v1?label=license&message=MIT&color=blueviolet)</a> <a href="https://www.npmjs.com/package/kuudere">![npm](https://img.shields.io/npm/v/kuudere?label=npm&message=&color=blueviolet)</a> <a href="#">![bundle size](https://img.shields.io/static/v1?label=bundle%20size&message=3.4kb&color=blueviolet)</a>
 
 Kuudere is a ultra-lightweight (only *3.4kb!*) JavaScript framework that provides simple, yet powerful abstractions.
 
