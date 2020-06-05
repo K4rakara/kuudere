@@ -9,7 +9,7 @@ interface JsDomNode
 	$?: { [key: string]: string };
 	_?:
 	{
-		listeners?: { [key: string]: ((<E extends Event>(e: E) => void)|(<E extends Event>(e: E) => void))[] };
+		listeners?: { [key: string]: ((<E extends Event>(e: E) => void)|(<E extends Event>(e: E) => void)[]) };
 		styles?: Partial<CSSStyleRule>; 
 	};
 	'...'?: (JsDomNode|string|HTMLElement)[];
@@ -69,7 +69,7 @@ export class JsDom
 							if (child._.styles != null)
 								Object.keys(child._.styles).forEach((key: string): void =>
 								{
-
+									thisElement.style[key] = child._!.styles![key];
 								});
 							else;
 						}
