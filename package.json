@@ -5,5 +5,10 @@
   "main": "bin/npm/index.js",
   "repository": "https://github.com/K4rakara/kuudere",
   "author": "Jack Johannesen",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-minify": "^0.5.1",
+    "browserify": "^16.5.1",
+    "typescript": "^3.9.5"
+  }
 }
