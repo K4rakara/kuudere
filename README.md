@@ -1,6 +1,14 @@
-# Kuudere
+<p align="center"><img src="./readme/kuudere-logo.svg" width="128"/></p>
 
-// TODO: README
+# Kuudere · ![license](https://img.shields.io/static/v1?label=license&message=MIT&color=blueviolet) ![npm](https://img.shields.io/npm/v/kuudere?label=npm&message=&color=blueviolet) ![bundle size](https://img.shields.io/static/v1?label=bundle%20size&message=3.4kb&color=blueviolet)
+
+Kuudere JS is a ultra-lightweight (only *3.4kb!*) JavaScript framework that provides simple, yet powerful abstractions.
+
+### Documentation
+
+```ts
+// TODO
+```
 
 ### Example
 
