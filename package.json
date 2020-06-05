@@ -1,6 +1,6 @@
 {
   "name": "kuudere",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Kuudere is a ultra-lightweight (only 3.4kb!) JavaScript framework that provides simple, yet powerful abstractions.",
   "main": "bin/npm/index.js",
   "repository": "https://github.com/K4rakara/kuudere",
@@ -10,5 +10,12 @@
     "babel-minify": "^0.5.1",
     "browserify": "^16.5.1",
     "typescript": "^3.9.5"
-  }
+  },
+  "keywords": [
+	"abstraction",
+	"framework",
+	"front-end",
+	"lightweight",
+	"web"
+  ]
 }
