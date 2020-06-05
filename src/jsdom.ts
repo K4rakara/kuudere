@@ -10,7 +10,7 @@ interface JsDomNode
 	_?:
 	{
 		listeners?: { [key: string]: ((<E extends Event>(e: E) => void)|(<E extends Event>(e: E) => void))[] };
-		styles?: Partial<CSS>; 
+		styles?: Partial<CSSStyleRule>; 
 	};
 	'...'?: (JsDomNode|string|HTMLElement)[];
 }
