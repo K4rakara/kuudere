@@ -23,7 +23,6 @@ export function constructComponent<Cst, Cpt extends Component<Cst>>
 ): HTMLKuudereComponent<Cpt>
 {
 	const el: HTMLKuudereComponent<Cpt> = <any>document.createElement(tag);
-	//@ts-ignore
-	el.__props = new Component<Cst>(el, args);
+	el.__props = new component(el, args);
 	return el;
 }

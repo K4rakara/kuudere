@@ -1,4 +1,5 @@
 export * from './functions';
+import * as functions from './functions';
 export * from './interfaces';
 import { Component } from './component';
 export { Component } from './component';
@@ -14,11 +15,12 @@ declare global
 	}
 }
 
-if (self.kuudereNoGlobal != null && self.kuudereNoGlobal && !(self.kuudere != null))
+if ((!(self.kuudereNoGlobal != null) || !self.kuudereNoGlobal) && !(self.kuudere != null))
 {
 	self.kuudere =
 	{
 		Component: Component,
 		JsDom: JsDom,
+		constructComponent: functions.constructComponent,
 	};
 }
