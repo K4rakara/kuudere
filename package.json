@@ -12,10 +12,13 @@
     "typescript": "^3.9.5"
   },
   "keywords": [
-	"abstraction",
-	"framework",
-	"front-end",
-	"lightweight",
-	"web"
-  ]
+    "abstraction",
+    "framework",
+    "front-end",
+    "lightweight",
+    "web"
+  ],
+  "dependencies": {
+    "webscript": "^0.2.0"
+  }
 }
