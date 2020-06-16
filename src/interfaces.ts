@@ -17,5 +17,6 @@ export interface Arguments<T>
 	listeners?:
 	{
 		[key: string]: ((<E extends Event>(e: E) => void)|(<E extends Event>(e: E) => void))[]
-	}
+	};
+	init?: <P extends Component<T>>(e: HTMLKuudereComponent<P>) => void;
 }

@@ -1,5 +1,6 @@
 import builders from 'webscript';
-import { createElement } from 'webscript/dist/createDOMElement.js';
+import createElement from 'webscript/dist/createDOMElement.js';
+import createSvgElement from 'webscript/dist/createSVGElement.js';
 
 export namespace WebScript
 {
@@ -29,10 +30,24 @@ export namespace WebScript
 			get(target, tag: string): any
 			{
 				if (target[tag] != null) return target[tag];
-				const [tagBuilder] = builders(createKuudereElement, tag);
+				const tagBuilder = builders.default(createKuudereElement, [ tag ])[0];
 				target[tag] = tagBuilder;
 				return target[tag];
 			}
 		});
+	}
+
+	export function SVG(): { [key: string]: any; }
+	{
+		return new Proxy
+		({}, {
+			get(target, tag: string): any
+			{
+				if (target[tag] != null) return target[tag];
+				const tagBuilder = builders.default(createSvgElement, [tag])[0];
+				target[tag] = tagBuilder;
+				return target[tag];
+			}
+		})
 	}
 }

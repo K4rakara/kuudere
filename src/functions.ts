@@ -10,5 +10,6 @@ export function constructComponent<Cst, Cpt extends Component<Cst>>
 {
 	const el: HTMLKuudereComponent<Cpt> = <any>document.createElement(tag);
 	el.__props = new component(el, args);
+	if (args.init != null) args.init(el);
 	return el;
 }

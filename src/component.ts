@@ -1,8 +1,8 @@
 import { HTMLKuudereComponent, Arguments } from "./interfaces";
 
-export class Component<ConstructorInterface>
+export class Component<Constr>
 {
-	constructor(el: HTMLKuudereComponent<ThisType<ConstructorInterface>>, args: Arguments<ConstructorInterface>)
+	constructor(el: HTMLKuudereComponent<ThisType<Constr>>, args: Arguments<Constr>)
 	{
 		// Take every value from `args.element` and set it on `el`.
 		if (args.element != null)
