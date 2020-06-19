@@ -1,25 +1,25 @@
-<center><img src="../kuudere/readme/kuudere-logo.svg" width="128"></center>
+<center><img src="./readme/kuudere-logo.svg" width="128"></center>
 
 # Kuudere Documentation
 
 ## Table Of Contents
 
-- [Guides]()
-  - [Getting started with Kuudere]()
-  - [Creating your first component]()
-- [Reference]()
-  - [`class` Kuudere.Component\<T\>]()
-  - [`class` Kuudere.JsDom]()
-  - [`function` Kuudere.constructComponent]()
-  - [`namespace` Kuudere.WebScript]()
-    - [`function` Kuudere.WebScript.HTML]()
-    - [`function` Kuudere.WebScript.SVG]()
+- [Guides](#guides)
+  - [Getting started with Kuudere](#getting-started-with-kuudere)
+  - [Creating your first component](#creating-your-first-component)
+- [Reference](#reference)
+  - [`class` Kuudere.Component\<T\>](#class-kuuderecomponentt)
+  - [`class` Kuudere.JsDom](#class-kuuderejsdom)
+  - [`function` Kuudere.constructComponent](#function-kuudereconstructcomponent)
+  - [`namespace` Kuudere.WebScript](#namespace-kuuderewebscript)
+    - [`function` Kuudere.WebScript.HTML](#namespace-kuuderewebscripthtml)
+    - [`function` Kuudere.WebScript.SVG](#namespace-kuuderewebscriptsvg)
 
 ## Guides
 
 ### Getting started with Kuudere
 
-Getting started with Kuudere doesn't even require NPM. You can simply download the latest standalone build from [here](), and add `<script src="kuudere.min.js"></script>` to the head of your HTML document. From there, you can use the global `kuudere` variable to access all the functions and classes that Kuudere provides.
+Getting started with Kuudere doesn't even require NPM. You can simply download the latest standalone build from [here](https://github.com/K4rakara/kuudere/releases), and add `<script src="kuudere.min.js"></script>` to the head of your HTML document. From there, you can use the global `kuudere` variable to access all the functions and classes that Kuudere provides.
 
 However, if you would like to use NPM, simply create a new project with `npm init` or `yarn init`, and then add Kuudere with `npm i kuudere` or `yarn add kuudere`.
 
@@ -181,7 +181,7 @@ And thats it! you've made your first Kuudere component.
 
 #### Description
 
-The `Kuudere.Component<T>` class allows for creating stateful HTML elements. By using the [`Kuudere.constructComponent`](to:reference/construct-component) method, you can create HTML elements that have an additional `__props` property, in which the `this` value of your `Kuudere.Component<T>` is stored.
+The `Kuudere.Component<T>` class allows for creating stateful HTML elements. By using the [`Kuudere.constructComponent`](#function-kuudereconstructcomponent) method, you can create HTML elements that have an additional `__props` property, in which the `this` value of your `Kuudere.Component<T>` is stored.
 
 #### Syntax
 
