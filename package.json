@@ -1,6 +1,6 @@
 {
   "name": "kuudere",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Kuudere is a ultra-lightweight (only 3.4kb!) JavaScript framework that provides simple, yet powerful abstractions.",
   "main": "bin/npm/index.js",
   "repository": "https://github.com/K4rakara/kuudere",
