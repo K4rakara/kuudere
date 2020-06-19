@@ -6,9 +6,7 @@ Kuudere is a ultra-lightweight (only *9.9kb!*) JavaScript framework that provide
 
 ### Documentation
 
-```ts
-// TODO
-```
+Documentation is availible [here](https://github.com/K4rakara/kuudere/blob/master/DOCS.md).
 
 ### Example (WebScript)
 
