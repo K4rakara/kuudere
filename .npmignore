@@ -8,3 +8,5 @@ tsconfig.npm.json
 tsconfig.standalone.json
 yarn.lock
 makefile
+docs
+docs-src
